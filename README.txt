@@ -1,12 +1,13 @@
 ### NOTICE ###
-- If you download using DownloadZIP icon, due to limit of file size of github, caffemodel files will not download normally. Download the 4 caffemodel files one by one and overwrite to the folder.
+- If you download using Download ZIP icon, due to LFS issues of github, caffemodel files(/models/*) will not be downloaded correctly. Download the 4 caffemodel files one by one and overwrite to the folder or,
 
-- Or use the OneDrive link or Mirror Link below.
+- Use OneDrive or mirror links.
 
 OneDrive : https://1drv.ms/u/s!AsgJ-NdXPSPKhXc1yOuJFmXacfmN
 Mirror #1 : http://medicalphoto.org/deep.zip
 Mirror #2 : http://sshan.dynu.com/file/deep.zip
 Mirror #3 : http://daoc.dynu.com/file/deep.zip
+
 
 
 # Skin diseases(Basal cell carcinoma, seborrheic keratosis, lentigo, wart) classifier - predict.exe
