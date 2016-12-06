@@ -1,0 +1,2 @@
+python %cd%/src/predict.py 224 %cd%/models/resnet_deploy.prototxt %cd%/models/resnet/100(typical)-web/res_runiter5_final-5_resnet_152_iter_8800.caffemodel %cd%/test %cd%/models/resnet/100(typical)-web "Traning : Asan(typical) ; Testing : web ; ResNet-152" 
+pause

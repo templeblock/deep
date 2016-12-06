@@ -1,0 +1,680 @@
+
+### Start Analysis ###
+# Mean binary(mean.binaryproto) & label file(label.txt) folder : Y:\JAMA/models/resnet/100(typical)-web
+# Model(.caffemodel) file : Y:\JAMA/models/resnet/100(typical)-web/res_runiter5_final-5_resnet_152_iter_8800.caffemodel
+# Test photographs folder : Y:\JAMA/test_hallym
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (2).JPG
+ [lentigo 61]  [bcc 39]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 10.JPG
+ [bcc 95]  [lentigo 5]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 11.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 12.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 13.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 14.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 15.JPG
+ [bcc 90]  [lentigo 10]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 16.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 17.JPG
+ [wart 100]  [bcc 0]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 18.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 19 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 19.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 2.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 21.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 22.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (2).JPG
+ [sebk 88]  [bcc 12]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 24.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 25.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 26.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 27.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 28.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 29.JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 3.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 31.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 32.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 33.JPG
+ [sebk 100]  [bcc 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 34.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 35.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 36.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 38 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 38 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 39.JPG
+ [bcc 99]  [wart 1]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 4.JPG
+ [wart 100]  [bcc 0]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 40.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 41.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 43.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 45.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 46.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (2).JPG
+ [lentigo 99]  [bcc 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 48.JPG
+ [bcc 37]  [sebk 33]  [lentigo 23]  [wart 7]   : Y:\JAMA/test_hallym\back bcc\case 49.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 5.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 50.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 52.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 53.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 54.JPG
+ [sebk 100]  [bcc 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 55.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 56.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 57.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 58.JPG
+ [lentigo 97]  [wart 3]  [bcc 0]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 59.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 6.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (2).JPG
+ [sebk 100]  [bcc 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 61.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 62.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 63.JPG
+ [bcc 95]  [sebk 5]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 64.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 65.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 66 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 66 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 67.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 69.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 7.JPG
+ [bcc 98]  [wart 2]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 71.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 72.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 73.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 74.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 75.JPG
+ [bcc 93]  [lentigo 7]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 8.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 9.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (2).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (1).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (2).JPG
+ [lentigo 69]  [bcc 26]  [sebk 5]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\07 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\07 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\08 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\08 (2).JPG
+ [bcc 68]  [sebk 29]  [lentigo 3]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (1).JPG
+ [sebk 98]  [bcc 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (1).JPG
+ [bcc 76]  [sebk 24]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (2).JPG
+ [lentigo 94]  [bcc 6]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (1).JPG
+ [bcc 77]  [lentigo 23]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\14 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\14 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (2).JPG
+ [sebk 100]  [bcc 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\18 (1).JPG
+ [bcc 89]  [sebk 11]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\18 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (2).JPG
+ [bcc 98]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\27 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\27 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (2).JPG
+
+###result###
+Traning : Asan(typical) ; Testing : hallym; ResNet-152
+Top 1 : 89 (136 / 152))
+Top 2 : 96 (146 / 152))
+
+bcc
+Top1 : 136 / 152 = 89 percent
+Top2 : 146 / 152 = 96 percent
+MissDx  lentigo (50 percent) 
+
+### Analysis Finished ###
+
+
+### Start Analysis ###
+# Mean binary(mean.binaryproto) & label file(label.txt) folder : Y:\JAMA/models/caffenet/100(typical)-web
+# Model(.caffemodel) file : Y:\JAMA/models/caffenet/100(typical)-web/caffeperformance-5_model_2_iter_2451.caffemodel
+# Test photographs folder : Y:\JAMA/test_hallym
+ [bcc 58]  [sebk 30]  [wart 11]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (1).JPG
+ [bcc 94]  [sebk 5]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (2).JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 10.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 11.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 12.JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 13.JPG
+ [bcc 91]  [lentigo 7]  [sebk 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 14.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 15.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 16.JPG
+ [lentigo 83]  [sebk 9]  [bcc 6]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 17.JPG
+ [sebk 49]  [bcc 23]  [wart 16]  [lentigo 11]   : Y:\JAMA/test_hallym\back bcc\case 18.JPG
+ [bcc 96]  [sebk 4]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 19 (2).JPG
+ [bcc 92]  [sebk 6]  [lentigo 2]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 19.JPG
+ [bcc 87]  [lentigo 7]  [wart 5]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 2.JPG
+ [bcc 60]  [wart 33]  [lentigo 4]  [sebk 3]   : Y:\JAMA/test_hallym\back bcc\case 20 (1).JPG
+ [wart 96]  [lentigo 3]  [bcc 2]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (2).JPG
+ [bcc 58]  [lentigo 42]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 21.JPG
+ [bcc 83]  [sebk 16]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 22.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (1).JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (2).JPG
+ [sebk 60]  [bcc 37]  [lentigo 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 24.JPG
+ [bcc 98]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 25.JPG
+ [bcc 96]  [sebk 1]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 26.JPG
+ [bcc 98]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 27.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 28.JPG
+ [bcc 96]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 29.JPG
+ [lentigo 99]  [bcc 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 3.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (2).JPG
+ [bcc 95]  [lentigo 4]  [wart 1]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 31.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 32.JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 33.JPG
+ [sebk 62]  [bcc 32]  [wart 5]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 34.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 35.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 36.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (2).JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 38 (1).JPG
+ [bcc 89]  [lentigo 11]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 38 (2).JPG
+ [bcc 57]  [lentigo 34]  [sebk 9]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 39.JPG
+ [bcc 85]  [sebk 7]  [wart 7]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 4.JPG
+ [bcc 62]  [wart 33]  [lentigo 4]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 40.JPG
+ [lentigo 80]  [bcc 13]  [sebk 7]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 41.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 43.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (2).JPG
+ [bcc 98]  [wart 1]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 45.JPG
+ [bcc 93]  [sebk 5]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 46.JPG
+ [bcc 98]  [wart 2]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (1).JPG
+ [bcc 95]  [lentigo 3]  [wart 2]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (2).JPG
+ [lentigo 74]  [bcc 26]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 48.JPG
+ [bcc 90]  [sebk 9]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 49.JPG
+ [wart 82]  [sebk 9]  [bcc 5]  [lentigo 4]   : Y:\JAMA/test_hallym\back bcc\case 5.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 50.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (2).JPG
+ [bcc 50]  [lentigo 49]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 52.JPG
+ [bcc 89]  [sebk 10]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 53.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 54.JPG
+ [sebk 91]  [bcc 8]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 55.JPG
+ [wart 77]  [lentigo 16]  [bcc 6]  [sebk 1]   : Y:\JAMA/test_hallym\back bcc\case 56.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 57.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 58.JPG
+ [bcc 49]  [lentigo 43]  [sebk 4]  [wart 4]   : Y:\JAMA/test_hallym\back bcc\case 59.JPG
+ [bcc 69]  [lentigo 30]  [wart 1]  [sebk 0]   : Y:\JAMA/test_hallym\back bcc\case 6.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (1).JPG
+ [bcc 97]  [lentigo 3]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (2).JPG
+ [sebk 96]  [bcc 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 61.JPG
+ [bcc 88]  [lentigo 12]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 62.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 63.JPG
+ [sebk 43]  [bcc 31]  [lentigo 26]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 64.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 65.JPG
+ [sebk 70]  [bcc 23]  [wart 6]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 66 (1).JPG
+ [bcc 62]  [sebk 32]  [lentigo 5]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 66 (2).JPG
+ [bcc 97]  [lentigo 3]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 67.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (1).JPG
+ [bcc 88]  [sebk 11]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (2).JPG
+ [bcc 91]  [sebk 7]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 69.JPG
+ [bcc 92]  [lentigo 6]  [sebk 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 7.JPG
+ [bcc 97]  [wart 3]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (1).JPG
+ [wart 46]  [bcc 41]  [lentigo 12]  [sebk 1]   : Y:\JAMA/test_hallym\back bcc\case 70 (2).JPG
+ [lentigo 59]  [bcc 18]  [wart 18]  [sebk 5]   : Y:\JAMA/test_hallym\back bcc\case 71.JPG
+ [bcc 82]  [sebk 16]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 72.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 73.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 74.JPG
+ [bcc 96]  [sebk 2]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 75.JPG
+ [bcc 76]  [lentigo 21]  [sebk 3]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 8.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 9.JPG
+ [bcc 96]  [lentigo 3]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (2).JPG
+ [bcc 84]  [sebk 11]  [wart 4]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (1).JPG
+ [wart 100]  [bcc 0]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (2).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (1).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (1).JPG
+ [bcc 79]  [lentigo 16]  [sebk 3]  [wart 3]   : Y:\JAMA/test_hallym\hallym bcc\05 (2).JPG
+ [bcc 86]  [wart 11]  [lentigo 3]  [sebk 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (2).JPG
+ [sebk 85]  [lentigo 11]  [wart 3]  [bcc 1]   : Y:\JAMA/test_hallym\hallym bcc\07 (1).JPG
+ [sebk 92]  [bcc 4]  [lentigo 3]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\07 (2).JPG
+ [bcc 82]  [lentigo 13]  [sebk 5]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\08 (1).JPG
+ [bcc 94]  [sebk 5]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\08 (2).JPG
+ [sebk 88]  [lentigo 7]  [bcc 4]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (1).JPG
+ [sebk 82]  [bcc 9]  [lentigo 8]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (2).JPG
+ [bcc 97]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (1).JPG
+ [wart 93]  [bcc 6]  [sebk 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (2).JPG
+ [lentigo 98]  [wart 2]  [bcc 0]  [sebk 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (1).JPG
+ [bcc 83]  [lentigo 16]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\14 (1).JPG
+ [bcc 72]  [wart 24]  [sebk 3]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\14 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (2).JPG
+ [bcc 98]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (2).JPG
+ [sebk 81]  [bcc 14]  [lentigo 4]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\18 (1).JPG
+ [bcc 91]  [sebk 8]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\18 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (2).JPG
+ [bcc 49]  [wart 36]  [sebk 13]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\21 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (1).JPG
+ [bcc 98]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (2).JPG
+ [bcc 80]  [lentigo 20]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (2).JPG
+ [lentigo 82]  [sebk 10]  [bcc 7]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\27 (1).JPG
+ [bcc 69]  [sebk 14]  [wart 11]  [lentigo 6]   : Y:\JAMA/test_hallym\hallym bcc\27 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (1).JPG
+ [bcc 97]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (2).JPG
+
+###result###
+Traning : Asan(typical) ; Testing : hallym; CaffeNet
+Top 1 : 82 (125 / 152))
+Top 2 : 92 (141 / 152))
+
+bcc
+Top1 : 125 / 152 = 82 percent
+Top2 : 141 / 152 = 92 percent
+MissDx  sebk (44 percent) 
+
+### Analysis Finished ###
+
+
+### Start Analysis ###
+# Mean binary(mean.binaryproto) & label file(label.txt) folder : Y:\JAMA/models/resnet/100(typical+atypical)-web
+# Model(.caffemodel) file : Y:\JAMA/models/resnet/100(typical+atypical)-web/res_runiter5_final-6_resnet_152_iter_8800.caffemodel
+# Test photographs folder : Y:\JAMA/test_hallym
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (1).JPG
+ [bcc 98]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (2).JPG
+ [lentigo 98]  [bcc 1]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 10.JPG
+ [bcc 90]  [lentigo 6]  [sebk 4]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 11.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 12.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 13.JPG
+ [lentigo 72]  [wart 16]  [bcc 10]  [sebk 3]   : Y:\JAMA/test_hallym\back bcc\case 14.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 15.JPG
+ [lentigo 52]  [bcc 43]  [sebk 6]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 16.JPG
+ [sebk 87]  [bcc 12]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 17.JPG
+ [sebk 70]  [wart 17]  [lentigo 7]  [bcc 6]   : Y:\JAMA/test_hallym\back bcc\case 18.JPG
+ [bcc 97]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 19 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 19.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 2.JPG
+ [sebk 83]  [bcc 17]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (1).JPG
+ [sebk 79]  [bcc 20]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (2).JPG
+ [bcc 98]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 21.JPG
+ [bcc 83]  [sebk 17]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 22.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (2).JPG
+ [sebk 99]  [bcc 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 24.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 25.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 26.JPG
+ [sebk 89]  [wart 7]  [bcc 3]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 27.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 28.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 29.JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 3.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 31.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 32.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 33.JPG
+ [sebk 98]  [wart 2]  [bcc 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 34.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 35.JPG
+ [bcc 99]  [wart 1]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 36.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 38 (1).JPG
+ [lentigo 84]  [bcc 7]  [sebk 7]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 38 (2).JPG
+ [bcc 80]  [sebk 20]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 39.JPG
+ [sebk 60]  [wart 32]  [bcc 9]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 4.JPG
+ [wart 100]  [bcc 0]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 40.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 41.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (2).JPG
+ [bcc 94]  [sebk 5]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 43.JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (2).JPG
+ [bcc 92]  [sebk 5]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 45.JPG
+ [bcc 95]  [sebk 4]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 46.JPG
+ [bcc 90]  [sebk 7]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 47 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (2).JPG
+ [sebk 83]  [lentigo 13]  [bcc 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 48.JPG
+ [sebk 71]  [wart 24]  [bcc 4]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 49.JPG
+ [sebk 61]  [bcc 31]  [wart 7]  [lentigo 2]   : Y:\JAMA/test_hallym\back bcc\case 5.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 50.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (1).JPG
+ [bcc 96]  [sebk 3]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (2).JPG
+ [bcc 83]  [lentigo 14]  [sebk 3]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 52.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 53.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 54.JPG
+ [wart 72]  [sebk 27]  [bcc 0]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 55.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 56.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 57.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 58.JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 59.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 6.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (1).JPG
+ [bcc 98]  [sebk 1]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 60 (2).JPG
+ [sebk 51]  [wart 39]  [bcc 10]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 61.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 62.JPG
+ [bcc 76]  [sebk 23]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 63.JPG
+ [bcc 95]  [sebk 3]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 64.JPG
+ [bcc 98]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 65.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 66 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 66 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 67.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 69.JPG
+ [bcc 50]  [lentigo 26]  [sebk 24]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 7.JPG
+ [bcc 95]  [sebk 4]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (1).JPG
+ [bcc 49]  [sebk 49]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (2).JPG
+ [sebk 88]  [lentigo 10]  [bcc 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 71.JPG
+ [bcc 92]  [sebk 4]  [wart 3]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 72.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 73.JPG
+ [sebk 59]  [bcc 32]  [wart 9]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 74.JPG
+ [bcc 98]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 75.JPG
+ [lentigo 47]  [sebk 31]  [bcc 22]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 8.JPG
+ [bcc 50]  [sebk 48]  [lentigo 2]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 9.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (2).JPG
+ [bcc 98]  [wart 1]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (2).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (1).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (2).JPG
+ [bcc 37]  [lentigo 37]  [sebk 25]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\07 (1).JPG
+ [bcc 71]  [lentigo 15]  [sebk 14]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\07 (2).JPG
+ [sebk 92]  [bcc 7]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\08 (1).JPG
+ [sebk 79]  [bcc 21]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\08 (2).JPG
+ [lentigo 91]  [sebk 8]  [bcc 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (1).JPG
+ [lentigo 64]  [sebk 35]  [bcc 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\09 (2).JPG
+ [bcc 91]  [sebk 5]  [wart 4]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (1).JPG
+ [sebk 85]  [bcc 12]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (2).JPG
+ [bcc 97]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (1).JPG
+ [bcc 97]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (2).JPG
+ [lentigo 89]  [bcc 8]  [sebk 2]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (1).JPG
+ [bcc 51]  [sebk 39]  [lentigo 11]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (2).JPG
+ [bcc 97]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\14 (1).JPG
+ [bcc 49]  [sebk 40]  [lentigo 10]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\14 (2).JPG
+ [bcc 98]  [sebk 1]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (1).JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\17 (2).JPG
+ [sebk 53]  [wart 24]  [lentigo 22]  [bcc 1]   : Y:\JAMA/test_hallym\hallym bcc\18 (1).JPG
+ [bcc 61]  [sebk 32]  [lentigo 7]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\18 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (1).JPG
+ [bcc 97]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (2).JPG
+ [bcc 96]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (2).JPG
+ [bcc 58]  [sebk 32]  [wart 9]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (2).JPG
+ [bcc 48]  [sebk 48]  [lentigo 3]  [wart 2]   : Y:\JAMA/test_hallym\hallym bcc\25 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (2).JPG
+ [bcc 71]  [sebk 15]  [wart 9]  [lentigo 5]   : Y:\JAMA/test_hallym\hallym bcc\27 (1).JPG
+ [bcc 97]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\27 (2).JPG
+ [bcc 97]  [wart 2]  [sebk 0]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (1).JPG
+ [bcc 87]  [wart 7]  [sebk 3]  [lentigo 2]   : Y:\JAMA/test_hallym\hallym bcc\28 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (1).JPG
+ [bcc 96]  [sebk 2]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (2).JPG
+
+###result###
+Traning : Asan(typical+atypical) ; Testing : hallym; ResNet-152
+Top 1 : 76 (117 / 152))
+Top 2 : 86 (131 / 152))
+
+bcc
+Top1 : 117 / 152 = 76 percent
+Top2 : 131 / 152 = 86 percent
+MissDx  sebk (57 percent) 
+
+### Analysis Finished ###
+
+
+### Start Analysis ###
+# Mean binary(mean.binaryproto) & label file(label.txt) folder : Y:\JAMA/models/caffenet/100(typical+atypical)-web
+# Model(.caffemodel) file : Y:\JAMA/models/caffenet/100(typical+atypical)-web/caffeperformance-6_model_2_iter_2451.caffemodel
+# Test photographs folder : Y:\JAMA/test_hallym
+ [bcc 42]  [sebk 40]  [wart 17]  [lentigo 2]   : Y:\JAMA/test_hallym\back bcc\case 1 (1).JPG
+ [bcc 93]  [sebk 7]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 1 (2).JPG
+ [bcc 83]  [sebk 10]  [lentigo 7]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 10.JPG
+ [bcc 93]  [sebk 5]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 11.JPG
+ [bcc 97]  [sebk 3]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 12.JPG
+ [bcc 96]  [sebk 3]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 13.JPG
+ [lentigo 47]  [sebk 27]  [bcc 25]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 14.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 15.JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 16.JPG
+ [lentigo 57]  [sebk 27]  [bcc 15]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 17.JPG
+ [sebk 61]  [bcc 22]  [lentigo 14]  [wart 3]   : Y:\JAMA/test_hallym\back bcc\case 18.JPG
+ [bcc 90]  [sebk 8]  [wart 2]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 19 (2).JPG
+ [bcc 95]  [sebk 3]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 19.JPG
+ [bcc 92]  [wart 5]  [lentigo 2]  [sebk 1]   : Y:\JAMA/test_hallym\back bcc\case 2.JPG
+ [sebk 96]  [bcc 2]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 20 (1).JPG
+ [sebk 71]  [wart 16]  [lentigo 10]  [bcc 3]   : Y:\JAMA/test_hallym\back bcc\case 20 (2).JPG
+ [bcc 92]  [lentigo 4]  [sebk 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 21.JPG
+ [sebk 80]  [bcc 17]  [wart 2]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 22.JPG
+ [bcc 95]  [sebk 3]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 23 (1).JPG
+ [bcc 93]  [sebk 5]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 23 (2).JPG
+ [sebk 88]  [bcc 5]  [lentigo 4]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 24.JPG
+ [bcc 91]  [sebk 7]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 25.JPG
+ [bcc 97]  [sebk 3]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 26.JPG
+ [bcc 79]  [sebk 17]  [wart 3]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 27.JPG
+ [bcc 90]  [sebk 9]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 28.JPG
+ [bcc 90]  [sebk 6]  [lentigo 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 29.JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 3.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (1).JPG
+ [bcc 98]  [sebk 2]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 30 (2).JPG
+ [bcc 83]  [sebk 10]  [lentigo 6]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 31.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 32.JPG
+ [bcc 79]  [sebk 8]  [wart 8]  [lentigo 5]   : Y:\JAMA/test_hallym\back bcc\case 33.JPG
+ [sebk 88]  [wart 7]  [bcc 5]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 34.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 35.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 36.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (1).JPG
+ [bcc 98]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 37 (2).JPG
+ [bcc 73]  [sebk 12]  [lentigo 12]  [wart 4]   : Y:\JAMA/test_hallym\back bcc\case 38 (1).JPG
+ [bcc 61]  [lentigo 28]  [sebk 9]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 38 (2).JPG
+ [lentigo 38]  [bcc 31]  [sebk 31]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 39.JPG
+ [bcc 45]  [sebk 38]  [wart 13]  [lentigo 3]   : Y:\JAMA/test_hallym\back bcc\case 4.JPG
+ [sebk 43]  [wart 23]  [bcc 21]  [lentigo 13]   : Y:\JAMA/test_hallym\back bcc\case 40.JPG
+ [lentigo 46]  [sebk 44]  [bcc 8]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 41.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 42  (2).JPG
+ [bcc 90]  [sebk 8]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 43.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (1).JPG
+ [bcc 98]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 44  (2).JPG
+ [bcc 89]  [wart 8]  [sebk 2]  [lentigo 1]   : Y:\JAMA/test_hallym\back bcc\case 45.JPG
+ [bcc 49]  [sebk 31]  [lentigo 15]  [wart 5]   : Y:\JAMA/test_hallym\back bcc\case 46.JPG
+ [bcc 96]  [wart 3]  [sebk 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (1).JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 47 (2).JPG
+ [lentigo 48]  [bcc 32]  [sebk 15]  [wart 5]   : Y:\JAMA/test_hallym\back bcc\case 48.JPG
+ [bcc 57]  [sebk 31]  [lentigo 8]  [wart 3]   : Y:\JAMA/test_hallym\back bcc\case 49.JPG
+ [sebk 67]  [bcc 21]  [wart 8]  [lentigo 4]   : Y:\JAMA/test_hallym\back bcc\case 5.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 50.JPG
+ [bcc 97]  [sebk 2]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 51 (1).JPG
+ [bcc 85]  [sebk 11]  [lentigo 2]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 51 (2).JPG
+ [lentigo 60]  [bcc 32]  [sebk 8]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 52.JPG
+ [bcc 91]  [sebk 8]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 53.JPG
+ [bcc 97]  [sebk 1]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 54.JPG
+ [sebk 88]  [wart 6]  [bcc 4]  [lentigo 2]   : Y:\JAMA/test_hallym\back bcc\case 55.JPG
+ [wart 44]  [bcc 38]  [sebk 14]  [lentigo 5]   : Y:\JAMA/test_hallym\back bcc\case 56.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 57.JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 58.JPG
+ [lentigo 49]  [bcc 33]  [sebk 15]  [wart 3]   : Y:\JAMA/test_hallym\back bcc\case 59.JPG
+ [bcc 76]  [lentigo 18]  [sebk 6]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 6.JPG
+ [bcc 95]  [sebk 2]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 60 (1).JPG
+ [bcc 93]  [sebk 3]  [lentigo 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 60 (2).JPG
+ [sebk 91]  [lentigo 5]  [bcc 3]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 61.JPG
+ [lentigo 59]  [bcc 40]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 62.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 63.JPG
+ [sebk 35]  [lentigo 34]  [bcc 28]  [wart 3]   : Y:\JAMA/test_hallym\back bcc\case 64.JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 65.JPG
+ [bcc 41]  [sebk 41]  [wart 10]  [lentigo 8]   : Y:\JAMA/test_hallym\back bcc\case 66 (1).JPG
+ [sebk 39]  [lentigo 35]  [bcc 24]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 66 (2).JPG
+ [bcc 88]  [lentigo 8]  [sebk 3]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 67.JPG
+ [bcc 84]  [sebk 12]  [lentigo 2]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 68 (1).JPG
+ [bcc 95]  [sebk 5]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 68 (2).JPG
+ [bcc 93]  [sebk 6]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 69.JPG
+ [bcc 92]  [sebk 6]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 7.JPG
+ [bcc 84]  [wart 11]  [sebk 4]  [lentigo 0]   : Y:\JAMA/test_hallym\back bcc\case 70 (1).JPG
+ [bcc 67]  [wart 18]  [lentigo 9]  [sebk 6]   : Y:\JAMA/test_hallym\back bcc\case 70 (2).JPG
+ [lentigo 52]  [sebk 34]  [bcc 11]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 71.JPG
+ [sebk 59]  [bcc 35]  [lentigo 4]  [wart 2]   : Y:\JAMA/test_hallym\back bcc\case 72.JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 73.JPG
+ [bcc 95]  [sebk 2]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 74.JPG
+ [bcc 89]  [sebk 6]  [lentigo 5]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 75.JPG
+ [bcc 79]  [lentigo 13]  [sebk 8]  [wart 0]   : Y:\JAMA/test_hallym\back bcc\case 8.JPG
+ [bcc 93]  [lentigo 4]  [sebk 2]  [wart 1]   : Y:\JAMA/test_hallym\back bcc\case 9.JPG
+ [bcc 78]  [lentigo 15]  [sebk 6]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\01 (2).JPG
+ [bcc 81]  [sebk 11]  [wart 7]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\02 (1).JPG
+ [wart 74]  [bcc 22]  [sebk 4]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\02 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\03 (2).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (1).JPG
+ [lentigo 100]  [bcc 0]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\04 (2).JPG
+ [bcc 83]  [sebk 14]  [lentigo 2]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\05 (1).JPG
+ [sebk 62]  [lentigo 19]  [bcc 12]  [wart 7]   : Y:\JAMA/test_hallym\hallym bcc\05 (2).JPG
+ [bcc 88]  [wart 7]  [lentigo 3]  [sebk 1]   : Y:\JAMA/test_hallym\hallym bcc\06 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\06 (2).JPG
+ [sebk 63]  [lentigo 29]  [wart 7]  [bcc 0]   : Y:\JAMA/test_hallym\hallym bcc\07 (1).JPG
+ [sebk 70]  [lentigo 21]  [wart 6]  [bcc 3]   : Y:\JAMA/test_hallym\hallym bcc\07 (2).JPG
+ [lentigo 42]  [bcc 41]  [sebk 16]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\08 (1).JPG
+ [bcc 68]  [sebk 26]  [lentigo 3]  [wart 3]   : Y:\JAMA/test_hallym\hallym bcc\08 (2).JPG
+ [sebk 66]  [lentigo 30]  [bcc 3]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\09 (1).JPG
+ [sebk 57]  [lentigo 40]  [bcc 3]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\09 (2).JPG
+ [bcc 96]  [sebk 2]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\10 (1).JPG
+ [wart 67]  [bcc 31]  [sebk 1]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\10 (2).JPG
+ [bcc 82]  [sebk 15]  [lentigo 2]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\11 (1).JPG
+ [bcc 93]  [sebk 6]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\11 (2).JPG
+ [lentigo 99]  [sebk 1]  [bcc 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\12 (1).JPG
+ [bcc 72]  [lentigo 14]  [sebk 12]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\12 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\13 (2).JPG
+ [bcc 90]  [sebk 8]  [lentigo 1]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\14 (1).JPG
+ [wart 50]  [bcc 23]  [sebk 20]  [lentigo 6]   : Y:\JAMA/test_hallym\hallym bcc\14 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (1).JPG
+ [bcc 96]  [sebk 4]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\15 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (1).JPG
+ [bcc 97]  [lentigo 2]  [sebk 1]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\16 (2).JPG
+ [bcc 90]  [wart 5]  [sebk 3]  [lentigo 3]   : Y:\JAMA/test_hallym\hallym bcc\17 (1).JPG
+ [bcc 84]  [wart 9]  [lentigo 5]  [sebk 2]   : Y:\JAMA/test_hallym\hallym bcc\17 (2).JPG
+ [sebk 58]  [wart 28]  [bcc 10]  [lentigo 4]   : Y:\JAMA/test_hallym\hallym bcc\18 (1).JPG
+ [bcc 42]  [sebk 30]  [wart 23]  [lentigo 4]   : Y:\JAMA/test_hallym\hallym bcc\18 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\19 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\20 (2).JPG
+ [wart 34]  [bcc 32]  [sebk 32]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\21 (1).JPG
+ [bcc 94]  [sebk 4]  [wart 1]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\21 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\22 (1).JPG
+ [bcc 63]  [sebk 33]  [lentigo 2]  [wart 2]   : Y:\JAMA/test_hallym\hallym bcc\22 (2).JPG
+ [bcc 53]  [lentigo 34]  [sebk 8]  [wart 5]   : Y:\JAMA/test_hallym\hallym bcc\23 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\23 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\24 (2).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (1).JPG
+ [bcc 99]  [sebk 1]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\25 (2).JPG
+ [bcc 99]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\26 (2).JPG
+ [lentigo 81]  [sebk 16]  [bcc 2]  [wart 1]   : Y:\JAMA/test_hallym\hallym bcc\27 (1).JPG
+ [bcc 43]  [sebk 34]  [wart 17]  [lentigo 6]   : Y:\JAMA/test_hallym\hallym bcc\27 (2).JPG
+ [bcc 93]  [sebk 5]  [wart 2]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\28 (1).JPG
+ [bcc 74]  [sebk 20]  [wart 4]  [lentigo 1]   : Y:\JAMA/test_hallym\hallym bcc\28 (2).JPG
+ [bcc 99]  [lentigo 1]  [sebk 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\29 (2).JPG
+ [bcc 90]  [sebk 8]  [wart 3]  [lentigo 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\30 (2).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (1).JPG
+ [bcc 100]  [sebk 0]  [lentigo 0]  [wart 0]   : Y:\JAMA/test_hallym\hallym bcc\31 (2).JPG
+
+###result###
+Traning : Asan(typical+atypical) ; Testing : hallym ; CaffeNet
+Top 1 : 73 (112 / 152))
+Top 2 : 84 (129 / 152))
+
+bcc
+Top1 : 112 / 152 = 73 percent
+Top2 : 129 / 152 = 84 percent
+MissDx  sebk (50 percent) 
+
+### Analysis Finished ###
+

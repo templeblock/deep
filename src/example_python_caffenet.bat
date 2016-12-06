@@ -1,0 +1,2 @@
+python %cd%/src/predict.py 227 %cd%/models/caffe_deploy.prototxt %cd%/models/caffenet/100(typical)-web/caffeperformance-5_model_2_iter_2451.caffemodel %cd%/test %cd%/models/caffenet/100(typical)-web "Traning : Asan(typical) ; Testing : web ; CaffeNet" 
+pause
