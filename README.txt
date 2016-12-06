@@ -1,4 +1,4 @@
-#Four skin diseases(Basal cell carcinoma, seborrheic keratosis, lentigo, wart) classifier - predict.exe
+# Skin diseases(Basal cell carcinoma, seborrheic keratosis, lentigo, wart) classifier - predict.exe
 
 - It requires 64 bit Windows.
 - It requires MSVC 2013 redistribution libraries(/dist/vcredist_x64.exe). It will be silently installed by DOS batch scripts. 
