@@ -1,7 +1,8 @@
 ### NOTICE ###
-- If you download using Download ZIP icon, due to LFS issues of github, caffemodel files(/models/*) will not be downloaded correctly. Download the 4 caffemodel files one by one and overwrite to the folder or,
+- If you download using Download ZIP icon, due to LFS issues of github, caffemodel files(/models/*) will not be downloaded correctly. 
 
-- Use OneDrive or mirror links.
+- Use GitHub Desktop(https://desktop.github.com/) for downloading, or
+- Download via OneDrive or mirror links.
 
 OneDrive : https://1drv.ms/u/s!AsgJ-NdXPSPKhXc1yOuJFmXacfmN
 Mirror #1 : http://medicalphoto.org/deep.zip
