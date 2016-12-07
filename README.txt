@@ -1,5 +1,6 @@
 ### How to install Classifier ###
 
+
 1) Download All files from links as shown below or GitHub repo. 
 
 OneDrive : https://1drv.ms/u/s!AsgJ-NdXPSPKhXdfJLT7JZY4WKwC
@@ -7,8 +8,7 @@ Mirror #1 : http://medicalphoto.org/deep.zip
 Mirror #2 : http://sshan.dynu.com/file/deep.zip
 Mirror #3 : http://daoc.dynu.com/file/deep.zip
 
-cf) If you want to download via Github, you must use GitHub Desktop(https://desktop.github.com/) 
-cf) DO NOT DIRECTLY DOWNLOAD FROM DOWNLOAD-ZIP ICON FROM GITHUB; Due to LFS issues of github, caffemodel files will not be downloaded correctly.
+cf) DO NOT DIRECTLY DOWNLOAD FROM DOWNLOAD-ZIP ICON FROM GITHUB; Due to LFS issues of github, caffemodel files will not be downloaded correctly. If you want to download via Github, you must use GitHub Desktop(https://desktop.github.com/)
 
 
 2) Run .bat files
