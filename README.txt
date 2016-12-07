@@ -1,9 +1,4 @@
-### NOTICE ###
-
-# Skin diseases(Basal cell carcinoma, seborrheic keratosis, lentigo, wart) classifier - predict.exe
-
-
-# How to install Classifier
+### How to install Classifier ###
 
 1) Download All files from GitHub or links as shown below. 
 
