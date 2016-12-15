@@ -23,6 +23,10 @@ cf) DO NOT DIRECTLY DOWNLOAD FROM DOWNLOAD-ZIP ICON FROM GITHUB; Due to LFS issu
 100(typical+atypical)-web;resnet.bat
 
 
+3) DEMO website : http://dx.medicalphoto.org  (ResNet-152 trained with 100(typical)Asan dataset)
+
+
+
 # About /dist/predict/predict.exe
 
 - It requires 64 bit Windows.
