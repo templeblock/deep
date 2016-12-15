@@ -1,3 +1,9 @@
+### DEMO website ###
+
+http://dx.medicalphoto.org  (ResNet-152 trained with 100(typical)Asan dataset)
+
+
+
 ### How to install Classifier ###
 
 
@@ -21,9 +27,6 @@ cf) DO NOT DIRECTLY DOWNLOAD FROM DOWNLOAD-ZIP ICON FROM GITHUB; Due to LFS issu
 100(typical+atypical)-hallym;resnet.bat
 100(typical+atypical)-web;caffenet.bat
 100(typical+atypical)-web;resnet.bat
-
-
-3) DEMO website : http://dx.medicalphoto.org  (ResNet-152 trained with 100(typical)Asan dataset)
 
 
 
