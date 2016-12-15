@@ -3,7 +3,6 @@
 http://dx.medicalphoto.org  (ResNet-152 trained with 100(typical)Asan dataset)
 
 
-
 ### How to install Classifier ###
 
 
